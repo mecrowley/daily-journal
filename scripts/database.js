@@ -39,7 +39,7 @@ const database = {
     You export a function that provides a version of the
     raw data in the format that you want
 */
-export const getJournalEntries = () => {
+export const getEntries = () => {
   const copyOfData = [...database.entries];
   return copyOfData;
 };
