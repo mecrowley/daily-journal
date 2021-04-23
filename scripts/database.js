@@ -29,7 +29,7 @@ const database = {
       date: "04/22/21",
       concept: "Debugging",
       entry:
-      "Steve demonstrated how to debug Bey's Blog using the developer tools",
+        "Steve demonstrated how to debug Bey's Blog using the developer tools",
       mood: "ok"
     }
   ],
