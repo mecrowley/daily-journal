@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Madeline's Daily Journal</title>
+  </head>
+  <body>
+    <main id="container">
+      <h2>Daily Journal</h2>
+      <form class="entryForm">
+        <fieldset>
+          <label for="entryDate">Date</label>
+          <input type="date" name="entryDate" class="entryForm__date" />
+        </fieldset>
+        <fieldset>
+          <label for="entryConcept">Concepts Covered</label>
+          <input type="text" name="entryConcept" class="entryForm__concept" />
+        </fieldset>
+        <fieldset>
+          <label for="journalEntry">Journal Entry</label>
+          <textarea class="entryForm" name="jounralEntry"> </textarea>
+        </fieldset>
+        <fieldset>
+          <label for="entryMood">Mood for the Day</label>
+          <select name="entryMood" class="entryMood">
+            <option value="happy">happy</option>
+            <option value="sad">sad</option>
+            <option value="whatever">whatever</option>
+          </select>
+        </fieldset>
+        <button id="submit-entry">Record Journal Entry</button>
+      </form>
+      <article id="entries"></article>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
